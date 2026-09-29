@@ -1,0 +1,102 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-cont {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    #loading {
+        color: white;
+        font-size: 30px;
+    }
+
+    #post-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .post-list{
+        background: rgba(255, 255, 255, 0.05);
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        font-size: 1rem;
+        font-weight: 500;
+        backdrop-filter: blur(8px);
+    }
+
+    .post-list:hover {
+        background: rgba(147, 141, 231, 0.041);
+        border-color: #2427d3;
+        transform: translateX(2px);
+    }
+   
+    #post-list li div {
+        margin-bottom: 8px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    h4 {
+        margin: 0 10px 0 0;
+        color: #4c5cf1da;
+        font-weight: 600;
+        min-width: 60px;
+    }
+
+    span {
+        color: #f8f3f3d0;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .comment-btn {
+        padding: 10px;
+        color: white;
+        background-color: #867ef331;
+        border: 1px solid rgba(34, 83, 219, 0.459);
+        border-radius: 5px;
+        transition: transform 0.2s ease;
+        cursor: pointer;
+    }
+
+    .comment-btn:hover {
+        background: rgba(99, 102, 241, 0.2);
+        border-color: #6366f1;
+        transform: translateX(5px);
+    }
+
+    .comments-list {
+        background: rgba(42, 49, 71, 0.39);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease;
+        border: 1px solid rgba(57, 60, 223, 0.541);
+        border-radius: 12px;
+        font-size: 1rem;
+        font-weight: 500;
+        backdrop-filter: blur(8px);
+        list-style: none;
+    }
+
+     .comments-list:hover {
+        background: rgba(99, 102, 241, 0.2);
+        border-color: #6366f1;
+        transform: translateX(5px);
+    }
